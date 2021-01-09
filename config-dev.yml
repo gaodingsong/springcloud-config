@@ -3,9 +3,5 @@
 #   port: 11111
 
 # 服务别名  注册zookeeper到注册中心名称
-spring:
-  application:
-    name: cloud-config-dev
-  cloud:
-    zookeeper:
-      connect-string: 192.168.2.116:2181
+config:
+  info: "aaaaaa    version = 6"
