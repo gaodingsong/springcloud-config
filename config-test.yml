@@ -1,11 +1,11 @@
 # 8004 表示注册到zookeeper服务器的支付支付服务提供者端口号
-server:
-  port: 2222
+# server:
+#   port: 2222
 
 # 服务别名  注册zookeeper到注册中心名称
 spring:
   application:
-    name: cloud-provider-payment
+    name: cloud-provider-payment-test
   cloud:
     zookeeper:
       connect-string: 192.168.2.116:2181
