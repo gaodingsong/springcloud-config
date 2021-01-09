@@ -4,4 +4,4 @@
 
 # 服务别名  注册zookeeper到注册中心名称
 config:
-  info: "aaaaaa    version = 7"
+  info: "aaaaaa    version = 8"
